@@ -1,25 +1,35 @@
-Projeto CRUD em PHP utilizando MVC
-Um projeto escalável que, com o tempo, terá muitas evoluções e testes.
+# Sistema CRUD em PHP Puro
 
-Visão Geral
-Este projeto é um sistema CRUD (Create, Read, Update, Delete) básico desenvolvido em PHP utilizando o padrão de arquitetura MVC (Model-View-Controller). O objetivo deste projeto é demonstrar a estruturação e boas práticas de programação.
+Este projeto é um sistema CRUD (Create, Read, Update, Delete) desenvolvido em PHP puro, utilizando Bootstrap para estilização. O objetivo principal deste sistema é gerenciar dados de forma simples e intuitiva, permitindo ao usuário realizar operações de criação, leitura, atualização e exclusão de registros sem a necessidade de um framework complexo.
 
-Funcionalidades
-Criação de Usuários: Formulário para adicionar novos usuários ao sistema.
-Leitura de Usuários: Listagem de todos os usuários cadastrados.
-Atualização de Usuários: Formulário para editar informações de usuários existentes.
-Deleção de Usuários: Função para remover usuários do sistema.
-Estrutura do Projeto
+## Objetivo
 
-Padrão MVC
-Model: Contém a lógica de acesso aos dados. Exemplo: UserModel.php
-View: Contém a lógica de apresentação dos dados na interface do usuário. Exemplo: createView.php, indexView.php
-Controller: Gerencia a lógica de controle da aplicação, intermediando entre Model e View. Exemplo: UserController.php
+O objetivo deste sistema é fornecer uma solução prática e eficiente para quem deseja aprender a desenvolver sistemas básicos de gerenciamento de dados. Com ele, os usuários podem:
 
-Arquivos e Pastas Principais
-index.php: Ponto de entrada principal do aplicativo. Lida com o roteamento das ações.
-config/Database.php: Configuração da conexão com o banco de dados.
+- **Gerenciar registros**: Adicionar, editar, visualizar e excluir dados de maneira simples.
+- **Aprender fundamentos de PHP e MySQL**: Um exemplo prático de como conectar o PHP com um banco de dados, ideal para quem está começando a aprender.
+- **Customização fácil**: Com o uso do Bootstrap, o design é adaptável e fácil de personalizar.
 
-Importância
-Ter um conhecimento sólido em CRUD, POO, e MVC é fundamental, pois você lidará com a base de tudo que fará em um sistema: requisições e renderizações. Este estudo facilita a compreensão de frameworks mais avançados como o Laravel.
+Este sistema é uma ótima base para iniciantes que desejam entender como funcionam os processos de CRUD em aplicações web, além de ser facilmente adaptável a diferentes tipos de dados e necessidades.
 
+## Funcionalidades
+
+- Criar: Adicionar novos registros ao sistema.
+- Ler: Visualizar a lista de registros existentes.
+- Atualizar: Editar registros existentes.
+- Deletar: Remover registros do sistema.
+
+## Tecnologias Utilizadas
+
+- PHP 8
+- Bootstrap 5
+- HTML
+- CSS
+- MySQL (ou outro banco de dados utilizado)
+
+## Como Executar
+
+1. Clone o repositório:
+   bash
+   git clone https://github.com/jonathanluis2022/CRUD-
+   cd CRUD-
